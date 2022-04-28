@@ -2,8 +2,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const CopyFilePlugin = require("copy-webpack-plugin")
 
 module.exports = {
-    mode: "production",
-    entry: "./src/ts/bundle.ts",
+    mode: "development",
+    entry: "./src/main/ts/bundle.ts",
     output: {
         path: __dirname + "/src/main/resources/static",
         filename: "bundle.js",
