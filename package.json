@@ -2,7 +2,7 @@
   "name": "home-portal",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode development"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.5",

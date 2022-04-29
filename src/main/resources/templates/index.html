@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=ja xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/dist/style.css}">
 </head>
-<body>
-<h1>Hello home!</h1>
+<body class="no-thank-yu">
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 text-nowrap clock" id="time-hour">00</div>
+            <div class="col-1 text-nowrap clock" id="time-colon">:</div>
+            <div class="col-1 text-nowrap clock" id="time-minute">00</div>
+        </div>
+    </div>
+</main>
+<script th:src="@{/dist/bundle.js}"></script>
 </body>
 </html>

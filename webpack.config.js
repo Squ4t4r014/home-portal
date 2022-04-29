@@ -5,7 +5,7 @@ module.exports = {
     mode: "development",
     entry: "./src/main/ts/bundle.ts",
     output: {
-        path: __dirname + "/src/main/resources/static",
+        path: __dirname + "/src/main/resources/static/dist",
         filename: "bundle.js",
     },
     module: {
